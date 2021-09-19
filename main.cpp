@@ -1,6 +1,6 @@
 #include <iostream>
 
-using namespace std;
+// this is the other way to print
 
 int main(){
 	cout << "Hello World" << endl;
