@@ -1,7 +1,11 @@
 #include <iostream>
+#include <string>
+#include <vector>
 
-// this is the other way to print
+// you also can try to use some complex way
 
 int main(){
-	std::cout << "Hello World" << std::endl;
+	std::vector< std::string > msg = {"Hello", " ", "World"};
+	for (auto m: msg)
+		std::cout << m;
 }
