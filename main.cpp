@@ -3,5 +3,5 @@
 // this is the other way to print
 
 int main(){
-	cout << "Hello World" << endl;
+	std::cout << "Hello World" << std::endl;
 }
