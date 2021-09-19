@@ -1,7 +1,7 @@
-#include <iostream>
+#include <cstdio>
 
-// this is the other way to print
+// sorry, I' like to use C-Type print
 
 int main(){
-	std::cout << "Hello World" << std::endl;
+	printf("%s", "Hello World");
 }
